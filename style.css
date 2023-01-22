@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.timer {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    background-color: #ff73fa;
+    border-radius: 0 0 0 10px;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at 92.3% 71.5%, rgba(83, 138, 214, 1) 0%, rgba(134, 231, 214, 1) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-shape-divider-bottom-1674417489 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1674417489 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1674417489 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.bannerHeader {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.341);
+    margin: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.abouts {
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
